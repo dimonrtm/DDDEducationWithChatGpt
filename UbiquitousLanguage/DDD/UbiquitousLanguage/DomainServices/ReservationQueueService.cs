@@ -6,11 +6,21 @@ namespace UbiquitousLanguage.DomainServices
     public class ReservationQueueService
     {
         private readonly IReservationRepository _reservations;
+        private readonly IReaderRepository _readers;
+        private readonly int _maxActivePerReader;
 
-        public ReservationQueueService(IReservationRepository reservations) => _reservations = reservations;
+        public ReservationQueueService(IReservationRepository reservations, IReaderRepository readers, int maxActivePerReader)
+        {
+            _reservations = reservations;
+            _readers = readers;
+            _maxActivePerReader = maxActivePerReader;
+        }
 
         public async Task<Reservation> EnqueueAsync(BookCopyId copyId, ReaderId readerId, ReservationPriority priority)
         {
+            var count = await _readers.CountActiveReservationsAsync(readerId);
+            if (count >= _maxActivePerReader)
+                throw new InvalidOperationException("Reader reached reservation limit.");
             var active = (await _reservations.GetActiveByCopyAsync(copyId)).ToList();         // упорядочены по Position
             var nextPos = (active.Count == 0) ? 1 : active.Max(r => r.Position) + 1;
 

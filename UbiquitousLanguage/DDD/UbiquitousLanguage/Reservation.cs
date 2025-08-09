@@ -12,13 +12,18 @@ namespace UbiquitousLanguage
 
     public record BookCopyId(Guid Value);
 
-    public enum ReservationStatus { Created, Active, Fulfilled, Cancelled, Expired }
+    public enum ReservationStatus { Created, Active, ActiveInReadingRoom, Fulfilled, Cancelled, Expired }
 
     public enum ReservationPriority
     {
         Staff = 0,        // самый высокий приоритет
         Researcher = 1,
         Regular = 2
+    }
+    public enum BookAccessType
+    {
+        RegularLoan,       // можно на руки
+        ReadingRoomOnly    // только в зале
     }
 
     public class Reservation
@@ -49,11 +54,13 @@ namespace UbiquitousLanguage
 
         internal void SetPosition(int position) => Position = position;
 
-        public void Activate() {
+        public void Activate(BookAccessType accessType) {
             if (Status != ReservationStatus.Created)
                 throw new InvalidOperationException();
-            Status = ReservationStatus.Active;
-                }
+            Status = accessType == BookAccessType.ReadingRoomOnly
+            ? ReservationStatus.ActiveInReadingRoom
+            : ReservationStatus.Active;
+        }
         public void Fulfill() { 
             if(Status != ReservationStatus.Active)
                 throw new InvalidOperationException();
