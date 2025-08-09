@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1BD6E79F-38E8-4191-B9E6-2475ACACB527}|UbiquitousLanguage\\UbiquitousLanguage.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1BD6E79F-38E8-4191-B9E6-2475ACACB527}|UbiquitousLanguage\\UbiquitousLanguage.csproj|solutionrelative:ubiquitouslanguage\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1BD6E79F-38E8-4191-B9E6-2475ACACB527}|UbiquitousLanguage\\UbiquitousLanguage.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD6E79F-38E8-4191-B9E6-2475ACACB527}|UbiquitousLanguage\\UbiquitousLanguage.csproj|solutionrelative:ubiquitouslanguage\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD6E79F-38E8-4191-B9E6-2475ACACB527}|UbiquitousLanguage\\UbiquitousLanguage.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\domainservices\\reservationqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD6E79F-38E8-4191-B9E6-2475ACACB527}|UbiquitousLanguage\\UbiquitousLanguage.csproj|solutionrelative:ubiquitouslanguage\\domainservices\\reservationqueueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD6E79F-38E8-4191-B9E6-2475ACACB527}|UbiquitousLanguage\\UbiquitousLanguage.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\repositories\\ireaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD6E79F-38E8-4191-B9E6-2475ACACB527}|UbiquitousLanguage\\UbiquitousLanguage.csproj|solutionrelative:ubiquitouslanguage\\repositories\\ireaderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BD6E79F-38E8-4191-B9E6-2475ACACB527}|UbiquitousLanguage\\UbiquitousLanguage.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\repositories\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BD6E79F-38E8-4191-B9E6-2475ACACB527}|UbiquitousLanguage\\UbiquitousLanguage.csproj|solutionrelative:ubiquitouslanguage\\repositories\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Class1.cs",
-              "RelativeDocumentMoniker": "UbiquitousLanguage\\Class1.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Class1.cs",
-              "RelativeToolTip": "UbiquitousLanguage\\Class1.cs",
+              "DocumentIndex": 2,
+              "Title": "IReaderRepository.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Repositories\\IReaderRepository.cs",
+              "RelativeDocumentMoniker": "UbiquitousLanguage\\Repositories\\IReaderRepository.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Repositories\\IReaderRepository.cs",
+              "RelativeToolTip": "UbiquitousLanguage\\Repositories\\IReaderRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T11:05:56.007Z",
+              "WhenOpened": "2025-08-09T12:41:27.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationQueueService.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\DomainServices\\ReservationQueueService.cs",
+              "RelativeDocumentMoniker": "UbiquitousLanguage\\DomainServices\\ReservationQueueService.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\DomainServices\\ReservationQueueService.cs",
+              "RelativeToolTip": "UbiquitousLanguage\\DomainServices\\ReservationQueueService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:41:39.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Repositories\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "UbiquitousLanguage\\Repositories\\IReservationRepository.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Repositories\\IReservationRepository.cs",
+              "RelativeToolTip": "UbiquitousLanguage\\Repositories\\IReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:33:10.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Reservation.cs",
+              "RelativeDocumentMoniker": "UbiquitousLanguage\\Reservation.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Reservation.cs",
+              "RelativeToolTip": "UbiquitousLanguage\\Reservation.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwDgAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T11:09:45.967Z",
               "EditorCaption": ""
             }
           ]
