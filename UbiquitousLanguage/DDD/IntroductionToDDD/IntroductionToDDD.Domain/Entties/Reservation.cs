@@ -1,4 +1,6 @@
-﻿using IntroductionToDDD.Domain.Enums;
+﻿using IntroductionToDDD.Domain.DomainEvents;
+using IntroductionToDDD.Domain.Enums;
+using IntroductionToDDD.Domain.Exceptions;
 using IntroductionToDDD.Domain.Policies;
 
 namespace IntroductionToDDD.Domain.Entties
@@ -37,7 +39,7 @@ namespace IntroductionToDDD.Domain.Entties
                 WaitDeadline = clock.Now().Add(waitPolicy.WaitDuration())
             };
 
-            res.Raise(new BookReserved(/* заполни поля */));
+            res.Raise(new BookReserved(res.Id, res.ReaderId, res.CopyId, res.Status, res.PriorityLevel, res.WaitDeadline));
             return res;
         }
 
@@ -48,9 +50,11 @@ namespace IntroductionToDDD.Domain.Entties
 
             // TODO: повторная проверка активной выдачи перед активацией
             // if ( ... ) throw ...
+            if (loanPolicy.HasActiveLoan(CopyId))
+                throw new DomainException("Copy already on active loan");
 
             Status = ReservationStatus.ActiveLoan;
-            Raise(new LoanActivated(/* заполни поля */));
+            Raise(new LoanActivated(Id, ReaderId, CopyId, Status, clock.Now()));
         }
 
         public void ExpireWait(IClock clock)
@@ -59,14 +63,14 @@ namespace IntroductionToDDD.Domain.Entties
             if (WaitDeadline is null || clock.Now() <= WaitDeadline.Value) return;
 
             Status = ReservationStatus.Canceled;
-            Raise(new WaitDeadlineExpired(/* occurredAt, reservationId, readerId, copyId, waitDeadline */));
+            Raise(new WaitDeadlineExpired(Id, ReaderId, CopyId, WaitDeadline, clock.Now()));
         }
 
         public void Cancel(string reason, string canceledBy, string? note = null)
         {
             if (Status == ReservationStatus.Canceled) return; // идемпотентность
             Status = ReservationStatus.Canceled;
-            Raise(new ReservationCanceled(/* + reason, canceledBy, note */));
+            Raise(new ReservationCanceled(Id, ReaderId, CopyId, reason, note, DateTimeOffset.Now));
         }
 
         private void Raise(object @event) { /* outbox/changes */ }
