@@ -7,3 +7,4 @@ using System.Threading.Tasks;
 namespace IntroductionToDDD.Domain.Enums
 {
     public enum CanceledBy { System, Librarian, Reader }
+}
