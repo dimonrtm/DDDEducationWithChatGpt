@@ -2,6 +2,6 @@
 
 namespace IntroductionToDDD.Domain.DomainEvents
 {
-    public record LoanActivated(Guid reservationId, Guid readerId, Guid copyId, ReservationStatus status, DateTimeOffset? occuredAt);
+    public record LoanActivated(Guid reservationId, Guid readerId, Guid copyId, ReservationStatus status, DateTimeOffset occurredAt, int version);
    
 }

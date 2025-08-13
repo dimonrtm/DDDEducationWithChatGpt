@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace IntroductionToDDD.Domain.DomainEvents
 {
-    public record WaitDeadlineExpired(Guid reservationId, Guid readerId, Guid copyId, DateTimeOffset? waitDeadline, DateTimeOffset? occuredAt);
+    public record WaitDeadlineExpired(Guid reservationId, Guid readerId, Guid copyId, DateTimeOffset? waitDeadline, DateTimeOffset occurredAt, int version);
 }

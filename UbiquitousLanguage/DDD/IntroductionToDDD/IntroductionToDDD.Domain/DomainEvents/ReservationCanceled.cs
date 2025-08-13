@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace IntroductionToDDD.Domain.DomainEvents
 {
-    public record ReservationCanceled(Guid reservationId, Guid readerId, Guid copyId, string reason, string? note, DateTimeOffset? cancelledAt);
+    public record ReservationCanceled(Guid reservationId, Guid readerId, Guid copyId, string reason, string? note, string canceledBy, DateTimeOffset occurredAt, int version);
 }

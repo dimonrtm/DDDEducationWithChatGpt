@@ -3,10 +3,11 @@ using IntroductionToDDD.Domain.Enums;
 using IntroductionToDDD.Domain.Exceptions;
 using IntroductionToDDD.Domain.Policies;
 
-namespace IntroductionToDDD.Domain.Entties
+namespace IntroductionToDDD.Domain.Entities
 {
     public sealed class Reservation
     {
+        private readonly List<object> _changes = new();
         public Guid Id { get; private set; }
         public Guid ReaderId { get; private set; }
         public Guid CopyId { get; private set; }
@@ -22,12 +23,17 @@ namespace IntroductionToDDD.Domain.Entties
             IReaderClassifier acl, ILoanPolicy loanPolicy,
             IWaitPolicy waitPolicy, IClock clock)
         {
+            if (id == Guid.Empty) throw new DomainException("Empty id");
+            if (readerId == Guid.Empty) throw new DomainException("Empty readerId");
+            if (copyId == Guid.Empty) throw new DomainException("Empty copyId");
             var profile = acl.Classify(readerId);
             if (!profile.Eligible) throw new DomainException("Reader ineligible");
 
             // Инвариант: не более одной активной выдачи на экземпляр
             if (loanPolicy.HasActiveLoan(copyId))
                 throw new DomainException("Copy already on active loan");
+
+            var now = clock.Now();
 
             var res = new Reservation
             {
@@ -36,10 +42,20 @@ namespace IntroductionToDDD.Domain.Entties
                 CopyId = copyId,
                 Status = ReservationStatus.Pending,
                 PriorityLevel = profile.PriorityLevel,
-                WaitDeadline = clock.Now().Add(waitPolicy.WaitDuration())
+                WaitDeadline = now.Add(waitPolicy.WaitDuration()),
+                Version = 0
             };
 
-            res.Raise(new BookReserved(res.Id, res.ReaderId, res.CopyId, res.Status, res.PriorityLevel, res.WaitDeadline));
+            res.Raise(new BookReserved(
+                reservationId: res.Id,
+                readerId: res.ReaderId,
+                copyId: res.CopyId,
+                status: res.Status,
+                priorityLevel: res.PriorityLevel,
+                waitDeadline: res.WaitDeadline,
+                occurredAt: now,
+                version: res.Version
+            ));
             return res;
         }
 
@@ -48,31 +64,70 @@ namespace IntroductionToDDD.Domain.Entties
             if (Status != ReservationStatus.Pending)
                 throw new DomainException("Only pending can activate");
 
+            var now = clock.Now();
+
+            if (WaitDeadline is null || now > WaitDeadline.Value)
+                throw new DomainException("Wait deadline expired");
+
             // TODO: повторная проверка активной выдачи перед активацией
             // if ( ... ) throw ...
             if (loanPolicy.HasActiveLoan(CopyId))
                 throw new DomainException("Copy already on active loan");
 
             Status = ReservationStatus.ActiveLoan;
-            Raise(new LoanActivated(Id, ReaderId, CopyId, Status, clock.Now()));
+            Version++;
+            Raise(new LoanActivated(
+                reservationId: Id,
+                readerId: ReaderId,
+                copyId: CopyId,
+                status: Status,
+                occurredAt: now,
+                version: Version
+            ));
         }
 
         public void ExpireWait(IClock clock)
         {
             if (Status != ReservationStatus.Pending) return; // идемпотентность
-            if (WaitDeadline is null || clock.Now() <= WaitDeadline.Value) return;
+            var now = clock.Now();
+            if (WaitDeadline is null || now <= WaitDeadline.Value) return;
 
             Status = ReservationStatus.Canceled;
-            Raise(new WaitDeadlineExpired(Id, ReaderId, CopyId, WaitDeadline, clock.Now()));
+            Version++;
+            Raise(new WaitDeadlineExpired(
+                reservationId: Id,
+                readerId: ReaderId,
+                copyId: CopyId,
+                waitDeadline: WaitDeadline,
+                occurredAt: now,
+                version: Version
+            ));
         }
 
-        public void Cancel(string reason, string canceledBy, string? note = null)
+        public void Cancel(CancelReason reason, CanceledBy canceledBy, IClock clock, string? note = null)
         {
             if (Status == ReservationStatus.Canceled) return; // идемпотентность
             Status = ReservationStatus.Canceled;
-            Raise(new ReservationCanceled(Id, ReaderId, CopyId, reason, note, DateTimeOffset.Now));
+            Version++;
+            Raise(new ReservationCanceled(
+                 reservationId: Id,
+                 readerId: ReaderId,
+                 copyId: CopyId,
+                 reason: reason.ToString(),
+                 canceledBy: canceledBy.ToString(),
+                 note: note,
+                 occurredAt: clock.Now(),
+                 version: Version
+             ));
         }
 
-        private void Raise(object @event) { /* outbox/changes */ }
+        public IReadOnlyCollection<object> DequeueUncommittedEvents()
+        {
+            var copy = _changes.ToArray();
+            _changes.Clear();
+            return copy;
+        }
+
+        private void Raise(object @event) => _changes.Add(@event);
     }
 }
