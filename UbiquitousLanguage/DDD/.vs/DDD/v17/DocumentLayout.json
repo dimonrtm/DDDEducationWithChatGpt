@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{E7CAD6D9-0079-40E9-20F7-8D1328BA64F8}|IntroductionToDDD\\Tests\\Tests.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\introductiontoddd\\tests\\reservationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7CAD6D9-0079-40E9-20F7-8D1328BA64F8}|IntroductionToDDD\\Tests\\Tests.csproj|solutionrelative:introductiontoddd\\tests\\reservationtest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7CAD6D9-0079-40E9-20F7-8D1328BA64F8}|IntroductionToDDD\\Tests\\Tests.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\introductiontoddd\\tests\\reservationqueuetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7CAD6D9-0079-40E9-20F7-8D1328BA64F8}|IntroductionToDDD\\Tests\\Tests.csproj|solutionrelative:introductiontoddd\\tests\\reservationqueuetest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F56C7B7A-C80F-445F-A868-F61A9F1D3AB0}|IntroductionToDDD\\IntroductionToDDD.Domain\\IntroductionToDDD.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\introductiontoddd\\introductiontoddd.domain\\introductiontoddd.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F56C7B7A-C80F-445F-A868-F61A9F1D3AB0}|IntroductionToDDD\\IntroductionToDDD.Domain\\IntroductionToDDD.Domain.csproj|solutionrelative:introductiontoddd\\introductiontoddd.domain\\introductiontoddd.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F56C7B7A-C80F-445F-A868-F61A9F1D3AB0}|IntroductionToDDD\\IntroductionToDDD.Domain\\IntroductionToDDD.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\introductiontoddd\\introductiontoddd.domain\\domainevents\\loanactivationauthorized.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F56C7B7A-C80F-445F-A868-F61A9F1D3AB0}|IntroductionToDDD\\IntroductionToDDD.Domain\\IntroductionToDDD.Domain.csproj|solutionrelative:introductiontoddd\\introductiontoddd.domain\\domainevents\\loanactivationauthorized.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\IntroductionToDDD\\IntroductionToDDD.Domain\\Tests\\ReservationQueueTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IntroductionToDDD\\IntroductionToDDD.Domain\\Tests\\ReservationQueueTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,7 +31,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "IntroductionToDDD.Domain",
+              "Title": "ReservationTest.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\IntroductionToDDD\\Tests\\ReservationTest.cs",
+              "RelativeDocumentMoniker": "IntroductionToDDD\\Tests\\ReservationTest.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\IntroductionToDDD\\Tests\\ReservationTest.cs",
+              "RelativeToolTip": "IntroductionToDDD\\Tests\\ReservationTest.cs",
+              "ViewState": "AgIAAOAAAAAAAAAAAAAiwP4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T03:51:29.121Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservationQueueTest.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\IntroductionToDDD\\Tests\\ReservationQueueTest.cs",
+              "RelativeDocumentMoniker": "IntroductionToDDD\\Tests\\ReservationQueueTest.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\IntroductionToDDD\\Tests\\ReservationQueueTest.cs",
+              "RelativeToolTip": "IntroductionToDDD\\Tests\\ReservationQueueTest.cs",
+              "ViewState": "AgIAAM8AAAAAAAAAAADwvxgBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-14T03:14:40.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IntroductionToDDD.Domain.csproj",
               "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\IntroductionToDDD\\IntroductionToDDD.Domain\\IntroductionToDDD.Domain.csproj",
               "RelativeDocumentMoniker": "IntroductionToDDD\\IntroductionToDDD.Domain\\IntroductionToDDD.Domain.csproj",
               "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\IntroductionToDDD\\IntroductionToDDD.Domain\\IntroductionToDDD.Domain.csproj",
@@ -38,12 +72,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LoanActivationAuthorized.cs",
               "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\IntroductionToDDD\\IntroductionToDDD.Domain\\DomainEvents\\LoanActivationAuthorized.cs",
               "RelativeDocumentMoniker": "IntroductionToDDD\\IntroductionToDDD.Domain\\DomainEvents\\LoanActivationAuthorized.cs",
@@ -52,18 +82,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-13T14:00:49.936Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ReservationQueueTest.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\IntroductionToDDD\\IntroductionToDDD.Domain\\Tests\\ReservationQueueTest.cs",
-              "RelativeDocumentMoniker": "IntroductionToDDD\\IntroductionToDDD.Domain\\Tests\\ReservationQueueTest.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\IntroductionToDDD\\IntroductionToDDD.Domain\\Tests\\ReservationQueueTest.cs",
-              "RelativeToolTip": "IntroductionToDDD\\IntroductionToDDD.Domain\\Tests\\ReservationQueueTest.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAADEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-13T13:28:09.327Z"
             }
           ]
         }
