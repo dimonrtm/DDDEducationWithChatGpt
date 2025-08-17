@@ -99,5 +99,23 @@ namespace CarShering.Booking.Domain.Tests
             Assert.Contains(b.Events, e => e is BookingCancelled);
             Assert.Contains(b.Events, e => e is DepositReleased dr && dr.Reason == "CancelledBeforeStart");
         }
+
+        [Fact]
+        public void Given_Placed_When_AuthorizeDeposit_AfterWindowFrom_Then_Throws()
+        {
+            // Arrange
+            // TODO: подготовьте окно, депозит и Place(...)
+            // Act + Assert
+            // TODO: вызов AuthorizeDeposit с моментом >= Window.From и проверка DomainException
+        }
+
+        [Fact]
+        public void Given_Active_When_Cancel_Then_Throws()
+        {
+            // Arrange
+            // TODO: Place, AuthorizeDeposit, Activate
+            // Act + Assert
+            // TODO: попытка Cancel и проверка DomainException
+        }
     }
 }
