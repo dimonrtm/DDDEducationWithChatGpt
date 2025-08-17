@@ -3,32 +3,20 @@
   "WorkspaceRootPath": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\carshering.booking.domain\\enums\\bookingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|solutionrelative:ubiquitouslanguage\\carshering.booking.domain\\enums\\bookingstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\carshering.booking.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|solutionrelative:ubiquitouslanguage\\carshering.booking.domain\\entities\\booking.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\carshering.booking.domain\\valueobjects\\timewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|solutionrelative:ubiquitouslanguage\\carshering.booking.domain\\valueobjects\\timewindow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\carshering.booking.domain\\domainevents\\depositauthorized.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|solutionrelative:ubiquitouslanguage\\carshering.booking.domain\\domainevents\\depositauthorized.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\carshering.booking.domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|solutionrelative:ubiquitouslanguage\\carshering.booking.domain\\valueobjects\\money.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\carshering.booking.domain\\domainevents\\bookingplaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|solutionrelative:ubiquitouslanguage\\carshering.booking.domain\\domainevents\\bookingplaced.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\carshering.booking.domain\\valueobjects\\driverid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|solutionrelative:ubiquitouslanguage\\carshering.booking.domain\\valueobjects\\driverid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\carshering.booking.domain\\valueobjects\\carid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|solutionrelative:ubiquitouslanguage\\carshering.booking.domain\\valueobjects\\carid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\carshering.booking.domain\\valueobjects\\bookingid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|solutionrelative:ubiquitouslanguage\\carshering.booking.domain\\valueobjects\\bookingid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\carshering.booking.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|solutionrelative:ubiquitouslanguage\\carshering.booking.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\carshering.booking.domain\\domainevents\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|solutionrelative:ubiquitouslanguage\\carshering.booking.domain\\domainevents\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,92 +31,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BookingStatus.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\Enums\\BookingStatus.cs",
-              "RelativeDocumentMoniker": "UbiquitousLanguage\\Carshering.Booking.Domain\\Enums\\BookingStatus.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\Enums\\BookingStatus.cs",
-              "RelativeToolTip": "UbiquitousLanguage\\Carshering.Booking.Domain\\Enums\\BookingStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Booking.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\Entities\\Booking.cs",
+              "RelativeDocumentMoniker": "UbiquitousLanguage\\Carshering.Booking.Domain\\Entities\\Booking.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\Entities\\Booking.cs",
+              "RelativeToolTip": "UbiquitousLanguage\\Carshering.Booking.Domain\\Entities\\Booking.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T05:38:29.893Z",
+              "WhenOpened": "2025-08-17T05:51:57.174Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TimeWindow.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\TimeWindow.cs",
-              "RelativeDocumentMoniker": "UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\TimeWindow.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\TimeWindow.cs",
-              "RelativeToolTip": "UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\TimeWindow.cs",
+              "Title": "DepositAuthorized.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\DomainEvents\\DepositAuthorized.cs",
+              "RelativeDocumentMoniker": "UbiquitousLanguage\\Carshering.Booking.Domain\\DomainEvents\\DepositAuthorized.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\DomainEvents\\DepositAuthorized.cs",
+              "RelativeToolTip": "UbiquitousLanguage\\Carshering.Booking.Domain\\DomainEvents\\DepositAuthorized.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T05:32:55.312Z",
+              "WhenOpened": "2025-08-17T05:49:52.582Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Money.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\Money.cs",
-              "RelativeDocumentMoniker": "UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\Money.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\Money.cs",
-              "RelativeToolTip": "UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\Money.cs",
+              "Title": "BookingPlaced.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\DomainEvents\\BookingPlaced.cs",
+              "RelativeDocumentMoniker": "UbiquitousLanguage\\Carshering.Booking.Domain\\DomainEvents\\BookingPlaced.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\DomainEvents\\BookingPlaced.cs",
+              "RelativeToolTip": "UbiquitousLanguage\\Carshering.Booking.Domain\\DomainEvents\\BookingPlaced.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T05:29:08.699Z",
+              "WhenOpened": "2025-08-17T05:48:25.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "DriverId.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\DriverId.cs",
-              "RelativeDocumentMoniker": "UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\DriverId.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\DriverId.cs",
-              "RelativeToolTip": "UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\DriverId.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T05:27:47.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CarId.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\CarId.cs",
-              "RelativeDocumentMoniker": "UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\CarId.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\CarId.cs",
-              "RelativeToolTip": "UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\CarId.cs",
+              "Title": "IDomainEvent.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\DomainEvents\\IDomainEvent.cs",
+              "RelativeDocumentMoniker": "UbiquitousLanguage\\Carshering.Booking.Domain\\DomainEvents\\IDomainEvent.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\DomainEvents\\IDomainEvent.cs",
+              "RelativeToolTip": "UbiquitousLanguage\\Carshering.Booking.Domain\\DomainEvents\\IDomainEvent.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T05:25:59.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "BookingId.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\BookingId.cs",
-              "RelativeDocumentMoniker": "UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\BookingId.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\BookingId.cs",
-              "RelativeToolTip": "UbiquitousLanguage\\Carshering.Booking.Domain\\ValueObjects\\BookingId.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T05:24:52.449Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DomainException.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\Exceptions\\DomainException.cs",
-              "RelativeDocumentMoniker": "UbiquitousLanguage\\Carshering.Booking.Domain\\Exceptions\\DomainException.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\Exceptions\\DomainException.cs",
-              "RelativeToolTip": "UbiquitousLanguage\\Carshering.Booking.Domain\\Exceptions\\DomainException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T05:22:13.174Z",
+              "WhenOpened": "2025-08-17T05:46:25.482Z",
               "EditorCaption": ""
             }
           ]
