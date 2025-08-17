@@ -105,8 +105,18 @@ namespace CarShering.Booking.Domain.Tests
         {
             // Arrange
             // TODO: подготовьте окно, депозит и Place(...)
+            var now = DateTimeOffset.UtcNow;
+            var from = now.AddHours(1);
+            var to = from.AddHours(2);
+            var win = new TimeWindow(from, to);
+            var dep = new Money(1000m, "KZT");
+            var b = Carshering.Booking.Domain.Entities.Booking.Place(new(Guid.NewGuid()), new(Guid.NewGuid()), new(Guid.NewGuid()), win, dep);
             // Act + Assert
             // TODO: вызов AuthorizeDeposit с моментом >= Window.From и проверка DomainException
+           ;
+            var ex = Assert.Throws<DomainException>(() => b.AuthorizeDeposit(from.AddMinutes(5)));
+            Assert.Contains("authorized before rental window begins", ex.Message);
+
         }
 
         [Fact]
@@ -114,8 +124,18 @@ namespace CarShering.Booking.Domain.Tests
         {
             // Arrange
             // TODO: Place, AuthorizeDeposit, Activate
+            var now = DateTimeOffset.UtcNow;
+            var from = now.AddHours(1);
+            var to = from.AddHours(2);
+            var win = new TimeWindow(from, to);
+            var dep = new Money(1000m, "KZT");
+            var b = Carshering.Booking.Domain.Entities.Booking.Place(new(Guid.NewGuid()), new(Guid.NewGuid()), new(Guid.NewGuid()), win, dep);
+            b.AuthorizeDeposit(from.AddMinutes(-10));
+            b.Activate(from);
             // Act + Assert
             // TODO: попытка Cancel и проверка DomainException
+            var ex = Assert.Throws<DomainException>(() => b.Cancel(from.AddMinutes(-5), "ChangeOfPlans"));
+            Assert.Contains("after activation or completion", ex.Message);
         }
     }
 }
