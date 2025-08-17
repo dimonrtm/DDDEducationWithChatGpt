@@ -73,6 +73,20 @@ namespace Carshering.Booking.Domain.Entities
             Status = BookingStatus.Completed;
             var used = at - ActivatedAt.Value;
             _events.Add(new BookingCompleted(Id, at, used));
+            _events.Add(new DepositReleased(Id, at, "Completed"));
+        }
+
+        public void Cancel(DateTimeOffset at, string? reason = null)
+        {
+            if (Status is BookingStatus.Active or BookingStatus.Completed or BookingStatus.Cancelled)
+                throw new DomainException("Cannot cancel after activation or completion.");
+
+            // До старта: Placed или DepositAuthorized
+            Status = BookingStatus.Cancelled;
+            _events.Add(new BookingCancelled(Id, at, reason));
+
+            if (DepositAuthorizedAt is not null)
+                _events.Add(new DepositReleased(Id, at, "CancelledBeforeStart"));
         }
     }
 }
