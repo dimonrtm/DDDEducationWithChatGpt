@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UbiquitiousLanguage", "Ubiq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carshering.Booking.Domain", "UbiquitousLanguage\Carshering.Booking.Domain\Carshering.Booking.Domain.csproj", "{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarShering.Booking.Domain.Tests", "UbiquitousLanguage\CarShering.Booking.Domain.Tests\CarShering.Booking.Domain.Tests.csproj", "{49EB31CE-4C67-4922-A22D-B2B97BDB64F8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49EB31CE-4C67-4922-A22D-B2B97BDB64F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49EB31CE-4C67-4922-A22D-B2B97BDB64F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49EB31CE-4C67-4922-A22D-B2B97BDB64F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49EB31CE-4C67-4922-A22D-B2B97BDB64F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{F56C7B7A-C80F-445F-A868-F61A9F1D3AB0} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 		{E7CAD6D9-0079-40E9-20F7-8D1328BA64F8} = {36D591C7-65C7-A0D1-1CBC-10CDE441BDC8}
 		{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF} = {289E1C48-D9F7-40AF-99A2-CC003424EE7F}
+		{49EB31CE-4C67-4922-A22D-B2B97BDB64F8} = {289E1C48-D9F7-40AF-99A2-CC003424EE7F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {475725CD-E783-4DC2-9E6C-E8A70064DCE9}
