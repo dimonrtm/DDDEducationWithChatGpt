@@ -18,6 +18,8 @@ namespace Carshering.Booking.Domain.Entities
         public BookingStatus Status { get; private set; }
         public DateTimeOffset? DepositAuthorizedAt { get; private set; }
 
+        public DateTimeOffset? ActivatedAt { get; private set; }
+
         private Booking(BookingId id, CarId carId, DriverId driverId, TimeWindow window, Money deposit)
         {
             Id = id;
@@ -57,7 +59,20 @@ namespace Carshering.Booking.Domain.Entities
                 throw new DomainException("Activation after Window.To is not allowed.");
 
             Status = BookingStatus.Active;
+            ActivatedAt = at;
             _events.Add(new BookingActivated(Id, at));
+        }
+
+        public void Complete(DateTimeOffset at)
+        {
+            if (Status != BookingStatus.Active)
+                throw new DomainException("Only active booking can be completed.");
+            if (ActivatedAt is null || at < ActivatedAt)
+                throw new DomainException("Completion cannot precede activation.");
+
+            Status = BookingStatus.Completed;
+            var used = at - ActivatedAt.Value;
+            _events.Add(new BookingCompleted(Id, at, used));
         }
     }
 }
