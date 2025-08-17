@@ -46,5 +46,18 @@ namespace Carshering.Booking.Domain.Entities
             DepositAuthorizedAt = at;
             _events.Add(new DepositAuthorized(Id, at));
         }
+
+        public void Activate(DateTimeOffset at)
+        {
+            if (Status != BookingStatus.DepositAuthorized)
+                throw new DomainException("Only deposit-authorized booking can be activated.");
+            if (at < Window.From)
+                throw new DomainException("Activation earlier than Window.From is not allowed.");
+            if (at >= Window.To)
+                throw new DomainException("Activation after Window.To is not allowed.");
+
+            Status = BookingStatus.Active;
+            _events.Add(new BookingActivated(Id, at));
+        }
     }
 }
