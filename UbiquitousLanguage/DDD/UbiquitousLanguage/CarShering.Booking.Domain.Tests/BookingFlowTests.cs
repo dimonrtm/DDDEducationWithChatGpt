@@ -134,7 +134,7 @@ namespace CarShering.Booking.Domain.Tests
             b.Activate(from);
             // Act + Assert
             // TODO: попытка Cancel и проверка DomainException
-            var ex = Assert.Throws<DomainException>(() => b.Cancel(from.AddMinutes(-5), "ChangeOfPlans"));
+            var ex = Assert.Throws<DomainException>(() => b.Cancel(from.AddMinutes(5), "ChangeOfPlans"));
             Assert.Contains("after activation or completion", ex.Message);
         }
     }
