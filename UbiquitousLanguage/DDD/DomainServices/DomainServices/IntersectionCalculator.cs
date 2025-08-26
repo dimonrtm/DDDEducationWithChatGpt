@@ -1,5 +1,4 @@
-﻿public sealed record Crs(string Code);
-public sealed record GeoShape(object Native, Crs Crs); // Native будет адаптирован в инфраструктуре
+﻿public sealed record GeoShape(object Native, Crs Crs); // Native будет адаптирован в инфраструктуре
 public sealed record Feature(string Id, GeoShape Shape, IReadOnlyDictionary<string, object>? Attrs);
 public sealed record FeatureArea(string Id, GeoShape Shape, double Area);
 public sealed record IntersectionResult(IReadOnlyList<FeatureArea> Items);

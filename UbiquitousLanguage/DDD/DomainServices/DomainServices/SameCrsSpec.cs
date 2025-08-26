@@ -3,8 +3,6 @@
     bool IsSatisfiedBy(T candidate);
 }
 
-public sealed record Layer(Guid Id, Crs Crs);
-public sealed record LayerVersion(Guid Id, Guid LayerId, Crs Crs);
 public sealed record PublicationAttempt(Layer Layer, LayerVersion Version);
 
 public sealed class SameCrsSpec : ISpecification<PublicationAttempt>
