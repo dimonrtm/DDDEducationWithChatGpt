@@ -1,4 +1,4 @@
-﻿// Порты слоя Application/Domain
+﻿namespace DomainServices.PublishVersionHandler;
 public interface ILayerRepository
 {
     Task<Layer?> GetAsync(Guid id, CancellationToken ct);
