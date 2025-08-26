@@ -1,88 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainservices\\domainservices\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|solutionrelative:domainservices\\domainservices\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainservices\\domainservices\\publishlayerversionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|solutionrelative:domainservices\\domainservices\\publishlayerversionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainservices\\domainservices\\samecrsspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|solutionrelative:domainservices\\domainservices\\samecrsspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainservices\\domainservices\\intersectioncalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|solutionrelative:domainservices\\domainservices\\intersectioncalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Interface1.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\Interface1.cs",
-              "RelativeDocumentMoniker": "DomainServices\\DomainServices\\Interface1.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\Interface1.cs",
-              "RelativeToolTip": "DomainServices\\DomainServices\\Interface1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T15:03:33.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PublishLayerVersionHandler.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\PublishLayerVersionHandler.cs",
-              "RelativeDocumentMoniker": "DomainServices\\DomainServices\\PublishLayerVersionHandler.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\PublishLayerVersionHandler.cs",
-              "RelativeToolTip": "DomainServices\\DomainServices\\PublishLayerVersionHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T14:24:59.866Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SameCrsSpec.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\SameCrsSpec.cs",
-              "RelativeDocumentMoniker": "DomainServices\\DomainServices\\SameCrsSpec.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\SameCrsSpec.cs",
-              "RelativeToolTip": "DomainServices\\DomainServices\\SameCrsSpec.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwA4AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T04:06:00.827Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IntersectionCalculator.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\IntersectionCalculator.cs",
-              "RelativeDocumentMoniker": "DomainServices\\DomainServices\\IntersectionCalculator.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\IntersectionCalculator.cs",
-              "RelativeToolTip": "DomainServices\\DomainServices\\IntersectionCalculator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-26T03:41:16.164Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }

@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainservices\\domainservices\\publishwithtransformhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|solutionrelative:domainservices\\domainservices\\publishwithtransformhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainservices\\domainservices\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|solutionrelative:domainservices\\domainservices\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainservices\\domainservices\\publishlayerversionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|solutionrelative:domainservices\\domainservices\\publishlayerversionhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F4BE405F-EE05-43DB-BDD3-836760525F20}|DomainServices\\Tests\\Tests.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainservices\\tests\\samecrsspectests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4BE405F-EE05-43DB-BDD3-836760525F20}|DomainServices\\Tests\\Tests.csproj|solutionrelative:domainservices\\tests\\samecrsspectests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70263353-BF97-46BD-B61C-7EB2B677310A}|DomainServices\\DomainServices\\DomainServices.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainservices\\domainservices\\samecrsspec.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,32 +39,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "PublishWithTransformHandler.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\PublishWithTransformHandler.cs",
+              "RelativeDocumentMoniker": "DomainServices\\DomainServices\\PublishWithTransformHandler.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\PublishWithTransformHandler.cs",
+              "RelativeToolTip": "DomainServices\\DomainServices\\PublishWithTransformHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowC8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T15:53:43.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SameCrsSpecTests.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\Tests\\SameCrsSpecTests.cs",
+              "RelativeDocumentMoniker": "DomainServices\\Tests\\SameCrsSpecTests.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\Tests\\SameCrsSpecTests.cs",
+              "RelativeToolTip": "DomainServices\\Tests\\SameCrsSpecTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T15:29:19.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Interface1.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\Interface1.cs",
+              "RelativeDocumentMoniker": "DomainServices\\DomainServices\\Interface1.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\Interface1.cs",
+              "RelativeToolTip": "DomainServices\\DomainServices\\Interface1.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-26T15:03:33.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PublishLayerVersionHandler.cs",
               "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\PublishLayerVersionHandler.cs",
               "RelativeDocumentMoniker": "DomainServices\\DomainServices\\PublishLayerVersionHandler.cs",
               "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\PublishLayerVersionHandler.cs",
               "RelativeToolTip": "DomainServices\\DomainServices\\PublishLayerVersionHandler.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAkwFIAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T14:24:59.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "SameCrsSpec.cs",
               "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\SameCrsSpec.cs",
               "RelativeDocumentMoniker": "DomainServices\\DomainServices\\SameCrsSpec.cs",
               "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\SameCrsSpec.cs",
               "RelativeToolTip": "DomainServices\\DomainServices\\SameCrsSpec.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-26T04:06:00.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "IntersectionCalculator.cs",
               "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainServices\\DomainServices\\IntersectionCalculator.cs",
               "RelativeDocumentMoniker": "DomainServices\\DomainServices\\IntersectionCalculator.cs",
