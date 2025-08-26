@@ -26,6 +26,20 @@ public sealed class IntersectionCalculator
         // 3) Пропустите пустые (null или _ops.IsEmpty(...))
         // 4) Посчитайте площадь через _ops.Area(...)
         // 5) Верните IntersectionResult с коллекцией FeatureArea
-        throw new NotImplementedException();
+        var results = new List<FeatureArea>();
+        foreach (var leftFeature in left)
+        {
+            foreach(var rightFeature in right)
+            {
+                var intersection = _ops.Intersect(leftFeature.Shape, rightFeature.Shape);
+               if(intersection ==null || _ops.IsEmpty(intersection))
+                {
+                    continue;
+                }
+               var area = _ops.Area(intersection);
+                results.Add(new FeatureArea(Guid.NewGuid().ToString(), intersection, area));
+            }
+        }
+        return new IntersectionResult(results);
     }
 }
