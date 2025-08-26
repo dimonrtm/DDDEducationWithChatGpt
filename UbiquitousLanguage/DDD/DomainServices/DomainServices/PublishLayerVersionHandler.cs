@@ -63,6 +63,23 @@ public sealed class PublishLayerVersionHandler
         // 6) Сохранить через репозиторий и зафиксировать UnitOfWork
         // 7) Опубликовать событие LayerVersionPublished
         // 8) Вернуть успех
-        throw new NotImplementedException();
+        var layer = await _layers.GetAsync(layerId, ct);
+        if (layer == null)
+        {
+            return new PublishResult(false, "Layer not found");
+        }
+        var layerVersion = await _versions.GetAsync(versionId, ct);
+        if (layerVersion == null)
+        {
+            return new PublishResult(false, "LayerVersion not found");
+        }
+        var polycyCheckResult = _policy.CanPublish(layer, layerVersion, new PublicationContext(DateTimeOffset.UtcNow));
+        if (!polycyCheckResult.IsAllowed) {
+        return new PublishResult(false, polycyCheckResult.Reason ?? "Publication not allowed");
+        }
+        layer.Publish(versionId);
+        await _layers.SaveAsync(layer, ct);
+        await _bus.PublishAsync(new LayerVersionPublished(layerId, versionId, DateTimeOffset.Now), ct);
+        return new PublishResult(true, null);
     }
 }
