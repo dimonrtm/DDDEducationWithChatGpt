@@ -12,6 +12,6 @@ public sealed class SameCrsSpec : ISpecification<PublicationAttempt>
     public bool IsSatisfiedBy(PublicationAttempt attempt)
     {
         // TODO: верните true, если CRS совпадают; иначе false
-        throw new NotImplementedException();
+        return attempt.Layer.Crs == attempt.Version.Crs;
     }
 }
