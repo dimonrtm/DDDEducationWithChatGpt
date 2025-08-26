@@ -22,6 +22,11 @@ namespace DomainServices.Layer
         {
             // TODO: если _publishedVersionId есть и не равен versionId — бросить DomainException
             // иначе присвоить _publishedVersionId = versionId
+            if (_publishedVersionId.HasValue && _publishedVersionId.Value != versionId)
+            {
+                throw new DomainException("AlreadyPublished", "НЕльзя опубликовать версию, потому что у слоя уже существует опубликованная версия");
+            }
+            _publishedVersionId = versionId;
         }
     }
 }
