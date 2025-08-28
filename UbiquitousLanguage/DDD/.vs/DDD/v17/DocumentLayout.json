@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\layer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\layer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\carshering.booking.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|solutionrelative:ubiquitouslanguage\\carshering.booking.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\layerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\layerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Exceptions\\DomainException.cs",
+              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\Exceptions\\DomainException.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Exceptions\\DomainException.cs",
+              "RelativeToolTip": "DomainEvents\\DomainEvents\\Exceptions\\DomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T03:23:16.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DomainException.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\Exceptions\\DomainException.cs",
+              "RelativeDocumentMoniker": "UbiquitousLanguage\\Carshering.Booking.Domain\\Exceptions\\DomainException.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\Exceptions\\DomainException.cs",
+              "RelativeToolTip": "UbiquitousLanguage\\Carshering.Booking.Domain\\Exceptions\\DomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T03:22:59.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LayerStatus.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\LayerStatus.cs",
+              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\LayerStatus.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\LayerStatus.cs",
+              "RelativeToolTip": "DomainEvents\\DomainEvents\\LayerStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T03:18:58.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Layer.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Layer.cs",
+              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\Layer.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Layer.cs",
+              "RelativeToolTip": "DomainEvents\\DomainEvents\\Layer.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA2wBgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T03:16:27.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDomainEvent.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\IDomainEvent.cs",
+              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\IDomainEvent.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\IDomainEvent.cs",
+              "RelativeToolTip": "DomainEvents\\DomainEvents\\IDomainEvent.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T03:15:48.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AggregateRoot.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\AggregateRoot.cs",
+              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\AggregateRoot.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\AggregateRoot.cs",
+              "RelativeToolTip": "DomainEvents\\DomainEvents\\AggregateRoot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-28T03:13:43.469Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
