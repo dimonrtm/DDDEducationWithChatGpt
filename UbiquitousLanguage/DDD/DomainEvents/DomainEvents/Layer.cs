@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Exceptions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,17 @@ namespace DomainEvents
             // 2) Изменить состояние
             // 3) Увеличить AggregateVersion
             // 4) Raise(new LayerUnpublished(...){ CorrelationId = ..., CausationId = ... })
+            if ( Status == LayerStatus.Unpublished)
+            {
+                throw new DomainException("Слой уже снят с публикации");
+            }
+            Status = LayerStatus.Unpublished;
+            AggregateVersion++;
+            Raise(new LayerUnpublished(Id, AggregateVersion, ProjectId)
+            {
+                CorrelationId = correlationId,
+                CausationId = causationId
+            });
         }
     }
 
@@ -29,5 +41,7 @@ namespace DomainEvents
         public int Version { get; } = 1;
         public string? CorrelationId { get; init; }
         public string? CausationId { get; init; }
+
+        public int SchemaVersion => throw new NotImplementedException();
     }
 }
