@@ -11,14 +11,15 @@ namespace DomainEvents.Policies
         // Пример: запрет публикации слоя без bbox и с неразрешённым типом геометрии
         public static IEnumerable<IDomainCommand> Decide(OnLayerPublishRequested e)
         {
-            if (e.AlreadyPublishedLayers.Count != 0)
-            {
-               foreach (var layerId in e.AlreadyPublishedLayers)
-               {
-                    yield return new Unpublish(layerId, "Не могу опубликовать слой, потому что другие слои уже публикуютя.");
-                }
-            }
-            yield return new ApprovePublish(e.LayerId);
+            var others = e.AlreadyPublishedLayers
+            .Where(id => id != e.LayerId)   // не трогаем текущий
+            .Distinct()                      // без дублей
+            .OrderBy(id => id);              // стабильный порядок
+
+            foreach (var layerId in others)
+                yield return new Unpublish(layerId, reason: "Exclusive publish required");
+
+            yield return new ApprovePublish(e.LayerId, e.ProjectId);
 
         }
     }
