@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\layer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\layer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\policies\\publicationpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\policies\\publicationpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\policies\\approvepublish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\policies\\approvepublish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\ubiquitouslanguage\\carshering.booking.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19202B1F-B1BB-4F70-AFB8-5268CEACB3FF}|UbiquitousLanguage\\Carshering.Booking.Domain\\Carshering.Booking.Domain.csproj|solutionrelative:ubiquitouslanguage\\carshering.booking.domain\\exceptions\\domainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\policies\\unpublish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\policies\\unpublish.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\layerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\layerstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\policies\\idomaincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\policies\\idomaincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\idomainevent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\domainevents\\domainevents\\policies\\onlayerpublishrequested.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8830CB4E-CDA7-4BB1-9277-603D642E35AE}|DomainEvents\\DomainEvents\\DomainEvents.csproj|solutionrelative:domainevents\\domainevents\\policies\\onlayerpublishrequested.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DomainException.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Exceptions\\DomainException.cs",
-              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\Exceptions\\DomainException.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Exceptions\\DomainException.cs",
-              "RelativeToolTip": "DomainEvents\\DomainEvents\\Exceptions\\DomainException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAAAA==",
+              "Title": "ApprovePublish.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Policies\\ApprovePublish.cs",
+              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\Policies\\ApprovePublish.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Policies\\ApprovePublish.cs",
+              "RelativeToolTip": "DomainEvents\\DomainEvents\\Policies\\ApprovePublish.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAWwBEAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T03:23:16.141Z",
+              "WhenOpened": "2025-08-29T03:40:40.839Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DomainException.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\Exceptions\\DomainException.cs",
-              "RelativeDocumentMoniker": "UbiquitousLanguage\\Carshering.Booking.Domain\\Exceptions\\DomainException.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\UbiquitousLanguage\\Carshering.Booking.Domain\\Exceptions\\DomainException.cs",
-              "RelativeToolTip": "UbiquitousLanguage\\Carshering.Booking.Domain\\Exceptions\\DomainException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "Unpublish.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Policies\\Unpublish.cs",
+              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\Policies\\Unpublish.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Policies\\Unpublish.cs",
+              "RelativeToolTip": "DomainEvents\\DomainEvents\\Policies\\Unpublish.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAWwBEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T03:22:59.533Z",
+              "WhenOpened": "2025-08-29T03:38:41.866Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "LayerStatus.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\LayerStatus.cs",
-              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\LayerStatus.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\LayerStatus.cs",
-              "RelativeToolTip": "DomainEvents\\DomainEvents\\LayerStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
+              "Title": "IDomainCommand.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Policies\\IDomainCommand.cs",
+              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\Policies\\IDomainCommand.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Policies\\IDomainCommand.cs",
+              "RelativeToolTip": "DomainEvents\\DomainEvents\\Policies\\IDomainCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T03:18:58.681Z",
+              "WhenOpened": "2025-08-29T03:35:52.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Layer.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Layer.cs",
-              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\Layer.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Layer.cs",
-              "RelativeToolTip": "DomainEvents\\DomainEvents\\Layer.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA2wBgAAABFAAAAAAAAAA==",
+              "Title": "PublicationPolicy.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Policies\\PublicationPolicy.cs",
+              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\Policies\\PublicationPolicy.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Policies\\PublicationPolicy.cs",
+              "RelativeToolTip": "DomainEvents\\DomainEvents\\Policies\\PublicationPolicy.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T03:16:27.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IDomainEvent.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\IDomainEvent.cs",
-              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\IDomainEvent.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\IDomainEvent.cs",
-              "RelativeToolTip": "DomainEvents\\DomainEvents\\IDomainEvent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T03:15:48.967Z",
+              "WhenOpened": "2025-08-29T03:33:38.993Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "AggregateRoot.cs",
-              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\AggregateRoot.cs",
-              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\AggregateRoot.cs",
-              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\AggregateRoot.cs",
-              "RelativeToolTip": "DomainEvents\\DomainEvents\\AggregateRoot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Title": "OnLayerPublishRequested.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Policies\\OnLayerPublishRequested.cs",
+              "RelativeDocumentMoniker": "DomainEvents\\DomainEvents\\Policies\\OnLayerPublishRequested.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\DomainEvents\\DomainEvents\\Policies\\OnLayerPublishRequested.cs",
+              "RelativeToolTip": "DomainEvents\\DomainEvents\\Policies\\OnLayerPublishRequested.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-28T03:13:43.469Z",
+              "WhenOpened": "2025-08-29T03:32:18.212Z",
               "EditorCaption": ""
             }
           ]
