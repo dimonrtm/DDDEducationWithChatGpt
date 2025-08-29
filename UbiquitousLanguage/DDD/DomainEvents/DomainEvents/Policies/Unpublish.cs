@@ -16,6 +16,4 @@ namespace DomainEvents.Policies
             Reason = reason;
         }
     }
-    {
-    }
 }
