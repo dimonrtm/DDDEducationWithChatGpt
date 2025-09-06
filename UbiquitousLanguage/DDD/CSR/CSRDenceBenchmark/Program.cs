@@ -202,7 +202,7 @@ class Program
     {
         // ПАРАМЕТРЫ ЭКСПЕРИМЕНТА — меняйте под задачу
         int n = 2000, m = 2000, k = 128;
-        double density = 0.01; // 0.5% ненулевых
+        double density = 0.1; // 0.5% ненулевых
 
         var A = Bench.GenerateRandomCsr(n, m, density);
         SortColumnsInRows(A); 
