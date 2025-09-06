@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BF9A9011-2F38-415B-BA97-46AF4D46ABE0}|CSR\\CSRDenceBenchmark\\CSRDenceBenchmark.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\csr\\csrdencebenchmark\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF9A9011-2F38-415B-BA97-46AF4D46ABE0}|CSR\\CSRDenceBenchmark\\CSRDenceBenchmark.csproj|solutionrelative:csr\\csrdencebenchmark\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{96ABD72C-52BB-4941-AE4D-EBF515793BE6}|LinearAlgebra\\Norms\\MatrixNorms\\MatrixNorms\\MatrixNorms.csproj|c:\\repositories\\dddeducationwithchatgpt\\ubiquitouslanguage\\ddd\\linearalgebra\\norms\\matrixnorms\\matrixnorms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96ABD72C-52BB-4941-AE4D-EBF515793BE6}|LinearAlgebra\\Norms\\MatrixNorms\\MatrixNorms\\MatrixNorms.csproj|solutionrelative:linearalgebra\\norms\\matrixnorms\\matrixnorms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\CSR\\CSRDenceBenchmark\\Program.cs",
+              "RelativeDocumentMoniker": "CSR\\CSRDenceBenchmark\\Program.cs",
+              "ToolTip": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\CSR\\CSRDenceBenchmark\\Program.cs",
+              "RelativeToolTip": "CSR\\CSRDenceBenchmark\\Program.cs",
+              "ViewState": "AgIAAL8AAAAAAAAAAAAqwMwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-06T07:31:18.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Repositories\\DDDEducationWithChatGpt\\UbiquitousLanguage\\DDD\\LinearAlgebra\\Norms\\MatrixNorms\\MatrixNorms\\Program.cs",
               "RelativeDocumentMoniker": "LinearAlgebra\\Norms\\MatrixNorms\\MatrixNorms\\Program.cs",
