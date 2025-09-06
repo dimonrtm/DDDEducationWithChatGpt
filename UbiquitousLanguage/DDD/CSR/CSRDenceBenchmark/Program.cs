@@ -34,6 +34,39 @@ public sealed class CsrMatrix
         }
         return C;
     }
+
+    public double[] Multiply1D(double[] B, int k)
+    {
+        int m = Cols;
+        if (B.Length != m * k) throw new ArgumentException("Dim mismatch A.Cols vs B.Rows");
+
+        var C = new double[Rows * k];
+
+        for (int i = 0; i < Rows; i++)
+        {
+            int ci = i * k;
+            int start = RowPtr[i], end = RowPtr[i + 1];
+            for (int p = start; p < end; p++)
+            {
+                int j = ColIdx[p];
+                double a = Val[p];
+                int bj = j * k;
+
+                int t = 0;
+                // лёгкое развёртывание по 4 (обычно достаточно)
+                for (; t <= k - 4; t += 4)
+                {
+                    C[ci + t + 0] += a * B[bj + t + 0];
+                    C[ci + t + 1] += a * B[bj + t + 1];
+                    C[ci + t + 2] += a * B[bj + t + 2];
+                    C[ci + t + 3] += a * B[bj + t + 3];
+                }
+                for (; t < k; t++)
+                    C[ci + t] += a * B[bj + t];
+            }
+        }
+        return C;
+    }
 }
 
 public static class Bench
@@ -68,8 +101,17 @@ public static class Bench
                 B[i, t] = Rng.NextDouble() * 2.0 - 1.0;
         return B;
     }
+    public static double[] GenerateDense1D(int m, int k, int seed = 123)
+    {
+        var rng = new Random(seed);
+        var B = new double[m * k];
+        for (int j = 0; j < m; j++)
+            for (int t = 0; t < k; t++)
+                B[j * k + t] = rng.NextDouble() * 2.0 - 1.0;
+        return B;
+    }
 
-    public static (double medianMs, double checksum) TimeIt(Func<double[,]> action, int reps = 10)
+    public static (double medianMs, double checksum) TimeIt(Func<double[]> action, int reps = 10)
     {
         // прогрев
         _ = action();
@@ -83,9 +125,8 @@ public static class Bench
             times[r] = sw.Elapsed.TotalMilliseconds;
 
             // маленький checksum, чтобы JIT не выкинул результат
-            for (int i = 0; i < C.GetLength(0); i += Math.Max(1, C.GetLength(0) / 8))
-                for (int t = 0; t < C.GetLength(1); t += Math.Max(1, C.GetLength(1) / 8))
-                    checksum += C[i, t] * 1e-12;
+            for (int i = 0; i < C.Length; i += Math.Max(1, C.Length / 8))
+                    checksum += C[i] * 1e-12;
         }
         Array.Sort(times);
         return (times[times.Length / 2], checksum);
@@ -101,11 +142,13 @@ class Program
         double density = 0.005; // 0.5% ненулевых
 
         var A = Bench.GenerateRandomCsr(n, m, density);
-        var B = Bench.GenerateDense(m, k);
+        //var B = Bench.GenerateDense(m, k);
+        var B1 = Bench.GenerateDense1D(m, k);
 
         Console.WriteLine($"A: {n}x{m}, nnz={A.Val.Length} (~{density:P1}), B: {m}x{k}");
 
-        var (median, chk) = Bench.TimeIt(() => A.Multiply(B), reps: 11);
+        //var (median, chk) = Bench.TimeIt(() => A.Multiply(B), reps: 11);
+        var (median, chk) = Bench.TimeIt(() => A.Multiply1D(B1, k), reps: 11);
         // Грубая оценка FLOPs: 2 * nnz * k
         double gflops = (2.0 * A.Val.Length * k) / (median / 1e3) / 1e9;
 
