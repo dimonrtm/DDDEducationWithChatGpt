@@ -135,6 +135,28 @@ public static class Bench
 
 class Program
 {
+    public static void SortColumnsInRows(CsrMatrix A)
+    {
+        for (int i = 0; i < A.Rows; i++)
+        {
+            int start = A.RowPtr[i], end = A.RowPtr[i + 1];
+            int len = end - start;
+            if (len <= 1) continue;
+
+            // вынимаем подмассивы строки
+            var cols = new int[len];
+            var vals = new double[len];
+            Array.Copy(A.ColIdx, start, cols, 0, len);
+            Array.Copy(A.Val, start, vals, 0, len);
+
+            // сортируем по столбцам с «прицепленными» значениями
+            Array.Sort(cols, vals);
+
+            // возвращаем на место
+            Array.Copy(cols, 0, A.ColIdx, start, len);
+            Array.Copy(vals, 0, A.Val, start, len);
+        }
+    }
     static void Main()
     {
         // ПАРАМЕТРЫ ЭКСПЕРИМЕНТА — меняйте под задачу
@@ -142,6 +164,7 @@ class Program
         double density = 0.005; // 0.5% ненулевых
 
         var A = Bench.GenerateRandomCsr(n, m, density);
+        SortColumnsInRows(A); 
         //var B = Bench.GenerateDense(m, k);
         var B1 = Bench.GenerateDense1D(m, k);
 
